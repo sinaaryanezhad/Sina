@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sina Aryanezhad | Personal Portfolio</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Sina Aryanezhad</h1>
+        <p>Graphic Designer | Website Developer</p>
+    </header>
 
+    <!-- Introduction Section -->
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <div class="info">
+                <div>
+                    <p>
+                        I am a professional graphic designer and web developer with over 3 years of experience. 
+                        Skilled in creating logos, posters, advertising cards, and programming websites.
+                    </p>
+                </div>
+                <div>
+                    <h3>Contact Information</h3>
+                    <p>📞 Phone: (+98) 938 694 2183</p>
+                    <p>✉️ Email: <a href="mailto:SINA_ARYANEZHAD@YAHOO.COM">SINA_ARYANEZHAD@YAHOO.COM</a></p>
+                    <p>💬 Instagram: @SINA_ARYANEZHAD</p>
+                    <p>📱 Telegram: @SINAARYANEZHAD</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>
+                    <h3>Photoshop (Ps)</h3>
+                    <div class="bar" style="width: 80%;"></div>
+                </div>
+                <div>
+                    <h3>CorelDRAW (Cd)</h3>
+                    <div class="bar" style="width: 60%;"></div>
+                </div>
+                <div>
+                    <h3>Illustrator (Ai)</h3>
+                    <div class="bar" style="width: 80%;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artworks Section -->
+        <section class="section">
+            <h2>My Artworks</h2>
+            <div class="artworks">
+                <img src="https://via.placeholder.com/300x200" alt="Artwork 1">
+                <img src="https://via.placeholder.com/300x200" alt="Artwork 2">
+                <img src="https://via.placeholder.com/300x200" alt="Artwork 3">
+                <img src="https://via.placeholder.com/300x200" alt="Artwork 4">
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+                <p id="formResponse" style="display: none; color: green; margin-top: 10px;"></p>
+            </form>
+        </section>
+    </div>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
